@@ -57,11 +57,11 @@ The code is heavily based on [HSurf-Net](https://github.com/LeoQLi/HSurf-Net).
 If you find our work useful in your research, please cite the following papers:
 
 ```
-@article{wu2023cmg,
+@article{wu2024cmg,
   title={CMG-Net: Robust Normal Estimation for Point Clouds via Chamfer Normal Distance and Multi-scale Geometry},
   author={Wu, Yingrui and Zhao, Mingyang and Li, Keqiang and Quan, Weize and Yu, Tianqi and Yang, Jianfeng and Jia, Xiaohong and Yan, Dong-Ming},
-  journal={arXiv preprint arXiv:2312.09154},
-  year={2023}
+  booktitle={Proceedings of the AAAI conference on artificial intelligence},
+  year={2024}
 }
 
 @inproceedings{ben2020deepfit,
