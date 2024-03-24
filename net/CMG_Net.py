@@ -188,7 +188,7 @@ class Network(nn.Module):
 
             weight_loss = (true_weight - pred_weights).pow(2).mean()
         
-        regularizer_loss = 0.1 * torch.nn.MSELoss()(trans * trans.permute(0, 2, 1),
+        regularizer_loss = 0.1 * torch.nn.MSELoss()(trans @ trans.permute(0, 2, 1),
                                                     torch.eye(3, device=trans.device).unsqueeze(0).repeat(
                                                     trans.size(0), 1, 1))
 
